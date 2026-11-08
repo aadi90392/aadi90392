@@ -1,63 +1,66 @@
-<p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Aditya Upadhyay — Full-stack developer. Thoughtful interfaces. Dependable backends." />
-</p>
+<img src="assets/hero.svg" width="100%" alt="Aditya Upadhyay — Full-stack developer in Indore, India. Thoughtfully built, end to end. React, TypeScript, Node.js and SQL." />
 
 <p align="center">
-  <a href="https://aditya-portfolio-eta-cyan.vercel.app"><img src="assets/portfolio.svg" width="155" alt="Visit my portfolio" /></a>
-  <a href="https://www.linkedin.com/in/adityaupadhyay-tech/"><img src="assets/linkedin.svg" width="155" alt="Connect on LinkedIn" /></a>
-  <a href="mailto:adi375461@gmail.com"><img src="assets/email.svg" width="155" alt="Email Aditya" /></a>
-  <a href="https://slotforge.aditya-upadhyay1-dev.workers.dev"><img src="assets/live.svg" width="155" alt="Try SlotForge" /></a>
+<a href="https://aditya-portfolio-eta-cyan.vercel.app"><img src="assets/portfolio.svg" width="170" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/adityaupadhyay-tech/"><img src="assets/linkedin.svg" width="170" alt="LinkedIn" /></a>
+<a href="mailto:adi375461@gmail.com"><img src="assets/email.svg" width="170" alt="Email Aditya" /></a>
+<a href="https://slotforge.aditya-upadhyay1-dev.workers.dev"><img src="assets/live.svg" width="170" alt="Try SlotForge" /></a>
 </p>
 
-### A little about me
+### The person behind the code
 
-I'm **Aditya**, a full-stack web developer based in **Indore, India**. I work with React, TypeScript and the MERN stack, building interfaces backed by authentication, APIs and databases.
+I'm **Aditya Upadhyay**, a full-stack web developer working with **React, TypeScript and the MERN stack**. I like turning a useful idea into an application people can actually navigate, sign into and use.
 
-My current focus is **SlotForge**: a deployed workspace-booking app where permissions, conflicting requests and reservation changes are handled on the server. I enjoy working through the details that make an application dependable after the first click.
+Currently building **SlotForge**, with a focus on the details behind the interface: workspace permissions, conflicting booking requests, account recovery and a dependable data model.
 
-### Selected work
+<br/>
 
-<table>
-<tr>
-<td width="50%"><a href="https://github.com/aadi90392/slotforge"><img src="assets/slotforge.svg" width="100%" alt="SlotForge — conflict-safe room booking, workspace roles and audit history" /></a><br/><a href="https://slotforge.aditya-upadhyay1-dev.workers.dev">Live application ↗</a> · <a href="https://github.com/aadi90392/slotforge">Source & architecture ↗</a></td>
-<td width="50%"><a href="https://github.com/aadi90392/smart-link-shortener"><img src="assets/shortener.svg" width="100%" alt="Smart Link Shortener — JWT, cached redirects and click analytics" /></a><br/><a href="https://github.com/aadi90392/smart-link-shortener">API documentation & source ↗</a></td>
-</tr>
-<tr>
-<td width="50%"><a href="https://github.com/aadi90392/BinaryLogix-RBAC"><img src="assets/rbac.svg" width="100%" alt="BinaryLogix RBAC — admin, manager and user permissions" /></a><br/><a href="https://github.com/aadi90392/BinaryLogix-RBAC">Explore role-based workflows ↗</a></td>
-<td width="50%"><a href="https://github.com/aadi90392/Rate-Limiter"><img src="assets/limiter.svg" width="100%" alt="API Rate Limiter — per-user and per-IP sliding windows" /></a><br/><a href="https://github.com/aadi90392/Rate-Limiter">Explore the implementation ↗</a></td>
-</tr>
-</table>
+<a href="https://github.com/aadi90392/slotforge"><img src="assets/flagship.svg" width="100%" alt="SlotForge: a live workspace-booking app. Available slots become five-minute holds and then confirmed reservations. Server-side membership checks, validation, idempotency and SQL uniqueness protect bookings." /></a>
 
-### My development toolkit
+<p align="center"><a href="https://slotforge.aditya-upadhyay1-dev.workers.dev"><b>Open live app ↗</b></a> &nbsp; · &nbsp; <a href="https://github.com/aadi90392/slotforge"><b>Read the source ↗</b></a> &nbsp; · &nbsp; <a href="https://github.com/aadi90392/slotforge#data-integrity"><b>Architecture & trade-offs ↗</b></a></p>
 
-| Frontend | Backend & data | Tools & deployment |
-| :--- | :--- | :--- |
-| React · TypeScript · JavaScript | Node.js · Express · REST APIs | Git · GitHub Actions · Postman |
-| HTML · CSS · Tailwind CSS · Vite | MongoDB · SQL · Cloudflare D1 | Cloudflare Workers · Vercel |
-
-### What I care about when building
-
-**01 — Clear interfaces.** Useful empty states, readable forms and feedback that tells people what happened.
-
-**02 — Backend correctness.** Validate input, check permissions and enforce important rules in the database.
-
-**03 — Changes I can verify.** Tests, documented trade-offs and a working deployment alongside the source.
-
-[![SlotForge checks](https://github.com/aadi90392/slotforge/actions/workflows/ci.yml/badge.svg)](https://github.com/aadi90392/slotforge/actions/workflows/ci.yml)
+<p align="center"><a href="https://github.com/aadi90392/slotforge/actions/workflows/ci.yml"><img src="https://github.com/aadi90392/slotforge/actions/workflows/ci.yml/badge.svg" alt="SlotForge automated checks" /></a></p>
 
 <details>
-<summary><b>Inside SlotForge's engineering</b></summary>
+<summary><b>Behind the interface — engineering decisions</b></summary>
 
-- Partial SQL unique index prevents competing reservations from occupying the same slot.
-- Short-lived holds, idempotent retries and conflict-safe rescheduling.
-- Revocable cookie sessions, email verification and single-use password recovery.
-- Tenant-scoped data access, owner/member permissions and transactional booking audits.
-- Local integration checks include 50 concurrent requests for one slot; this tests correctness, not production throughput.
+- **Conflicts belong in the database:** a partial unique index prevents two active bookings for the same room and time.
+- **Retries should be safe:** idempotency keys reuse an existing booking; rescheduling preserves the original reservation if the target is unavailable.
+- **Access follows membership:** workspace roles, private room photos and booking ownership are checked on the backend.
+- **Accounts have a lifecycle:** verified email, revocable sessions, single-use recovery links and account deletion.
+- **Correctness is tested:** local integration tests include 50 competing requests for one slot. This is a correctness check, not a production throughput claim.
 
-[Read the architecture and current boundaries →](https://github.com/aadi90392/slotforge#data-integrity)
+[Read current product boundaries and deployment checks →](https://github.com/aadi90392/slotforge/blob/main/docs/RELEASE-STATUS.md)
 
 </details>
 
----
+<br/>
 
-<p align="center"><b>Have something useful to build?</b><br/>Let's talk about the interface, the API and everything in between.<br/><a href="mailto:adi375461@gmail.com">adi375461@gmail.com</a> · <a href="https://www.linkedin.com/in/adityaupadhyay-tech/">LinkedIn</a></p>
+### More things I've built
+
+<a href="https://github.com/aadi90392/smart-link-shortener"><img src="assets/shortener.svg" width="100%" alt="Smart Link Shortener — TypeScript, Express and MongoDB. JWT authentication, cached redirects, analytics and link expiry. View source." /></a>
+
+<a href="https://github.com/aadi90392/BinaryLogix-RBAC"><img src="assets/rbac.svg" width="100%" alt="BinaryLogix RBAC — React, Express and MongoDB. Admin, manager and user workflows with protected routes. View source." /></a>
+
+<a href="https://github.com/aadi90392/Rate-Limiter"><img src="assets/limiter.svg" width="100%" alt="API Rate Limiter — Node.js and Express. Per-user and per-IP sliding windows, using in-memory storage for a single instance. View source." /></a>
+
+<br/>
+
+### The toolkit
+
+| Interfaces | APIs & data | Shipping & verification |
+| :--- | :--- | :--- |
+| **React · TypeScript · JavaScript** | **Node.js · Express · REST APIs** | **Git · GitHub Actions · Postman** |
+| HTML · CSS · Tailwind CSS · Vite | MongoDB · SQL · Cloudflare D1 | Cloudflare Workers · Vercel |
+
+### How I approach a build
+
+| 01 / Make it clear | 02 / Make it correct | 03 / Make it verifiable |
+| :--- | :--- | :--- |
+| Readable interfaces, useful empty states and feedback that explains what happened. | Validate inputs, enforce permissions and protect important rules in the database. | Test meaningful cases, document limitations and ship a working deployment. |
+
+<br/>
+
+<a href="mailto:adi375461@gmail.com"><img src="assets/footer.svg" width="100%" alt="Let's build something worth using. Email Aditya." /></a>
+
+<p align="center"><a href="mailto:adi375461@gmail.com">adi375461@gmail.com</a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/adityaupadhyay-tech/">LinkedIn</a> &nbsp; / &nbsp; <a href="https://aditya-portfolio-eta-cyan.vercel.app">Portfolio</a></p>
