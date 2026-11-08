@@ -36,16 +36,6 @@ Currently building **SlotForge**, with a focus on the details behind the interfa
 
 <br/>
 
-### More things I've built
-
-<a href="https://github.com/aadi90392/smart-link-shortener"><img src="assets/shortener.svg" width="100%" alt="Smart Link Shortener — TypeScript, Express and MongoDB. JWT authentication, cached redirects, analytics and link expiry. View source." /></a>
-
-<a href="https://github.com/aadi90392/BinaryLogix-RBAC"><img src="assets/rbac.svg" width="100%" alt="BinaryLogix RBAC — React, Express and MongoDB. Admin, manager and user workflows with protected routes. View source." /></a>
-
-<a href="https://github.com/aadi90392/Rate-Limiter"><img src="assets/limiter.svg" width="100%" alt="API Rate Limiter — Node.js and Express. Per-user and per-IP sliding windows, using in-memory storage for a single instance. View source." /></a>
-
-<br/>
-
 ### The toolkit
 
 | Interfaces | APIs & data | Shipping & verification |
