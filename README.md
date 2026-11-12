@@ -7,18 +7,62 @@
 <a href="https://portfolio.aditya-upadhyay1-dev.workers.dev/resume.pdf"><img src="assets/resume.svg" width="23%" alt="View résumé" /></a>
 </p>
 
-### A little context
+## Namaste, I'm Aditya 👋
 
-I'm **Aditya**, a full-stack developer working with **React, TypeScript, Node.js and NestJS**. My work spans client-facing applications and product teams, with an interest in the parts that make software dependable: clear interfaces, explicit permissions and consistent data.
+<img align="right" src="assets/orbit.svg" width="230" alt="An illustrated planet: stay curious, keep building." />
 
-Currently a **Full Stack Developer at BlueBricks Technologies**. Previously **Pod Ceres Lead at Vosyn**, with earlier development experience at **Kodrish** and **Infotact**.
+I build web applications that connect **a clear interface to a dependable backend**. I enjoy the whole journey: understanding a problem, designing the data, writing the API and making the final interaction feel right.
+
+My work spans **product teams, client applications and developer tools**. The interesting part for me is what happens after the happy path: two people booking the same room, a returned item changing inventory, or a Git operation surviving a browser refresh.
+
+**Based in Indore, India. Building with React, TypeScript and Node.js.**
+
+### On my desk right now
+
+- 🧱 **At work:** full-stack product development at BlueBricks Technologies.
+- 🛠️ **In my projects:** reservations, inventory workflows and browser-local Git tools.
+- 🔎 **My engineering focus:** data integrity, permissions and useful error states.
+- 🤝 **Let's talk about:** full-stack roles, product engineering and thoughtful web experiences.
+
+<br clear="all" />
 
 ---
 
-### Selected work
+## Three projects. Three different problems.
+
 
 Three applications, three different engineering problems. Explore the live products, then follow the implementation in their repositories.
 
+<a href="https://github.com/aadi90392/slotforge"><img src="assets/slotforge.svg" width="100%" alt="SlotForge — shared-space booking with membership permissions, availability checks, reservations and audit history." /></a>
+
+**[Launch SlotForge ↗](https://slotforge.aditya-upadhyay1-dev.workers.dev/)** &nbsp; / &nbsp; [Source code](https://github.com/aadi90392/slotforge) &nbsp; / &nbsp; [Project overview](https://portfolio.aditya-upadhyay1-dev.workers.dev/#slotforge)
+
+<details>
+<summary><b>Inside SlotForge — protect a booking beyond the button</b></summary>
+
+- **Membership-based access:** workspace roles and booking ownership are checked on the backend.
+- **Competing reservations:** database constraints protect the booking rules.
+- **Safe retries:** idempotency handling keeps repeated requests from becoming duplicate operations.
+- **Account lifecycle:** email verification, recovery and revocable sessions.
+- **Deliberate boundary:** physical room reservations, not a video meeting service.
+
+</details>
+<br/>
+<a href="https://github.com/aadi90392/stockflow"><img src="assets/stockflow.svg" width="100%" alt="StockFlow — inventory operations covering purchasing, receiving, transfers, sales, returns and stock history." /></a>
+
+**[Launch StockFlow ↗](https://stockflow.aditya-upadhyay1-dev.workers.dev/)** &nbsp; / &nbsp; [Source code](https://github.com/aadi90392/stockflow) &nbsp; / &nbsp; [Project overview](https://portfolio.aditya-upadhyay1-dev.workers.dev/#stockflow)
+
+<details>
+<summary><b>Inside StockFlow — connect operations to inventory</b></summary>
+
+- **One workspace:** products, suppliers, locations and team access.
+- **Connected operations:** purchases, receiving, transfers, sales and returns.
+- **Traceable changes:** a stock ledger helps explain inventory movements.
+- **Deployment:** a React interface and Hono API on Cloudflare, backed by D1.
+- **Deliberate boundary:** inventory operations, not shipment tracking or a complete accounting suite.
+
+</details>
+<br/>
 <a href="https://github.com/aadi90392/gitscope"><img src="assets/gitscope.svg" width="100%" alt="GitScope — browser-local Git debugger with real objects, commit graphs, conflict resolution and offline storage." /></a>
 
 **[Launch GitScope ↗](https://aadi90392.github.io/gitscope/)** &nbsp; / &nbsp; [Source code](https://github.com/aadi90392/gitscope) &nbsp; / &nbsp; [Architecture & boundaries](https://github.com/aadi90392/gitscope#architecture)
@@ -35,44 +79,9 @@ Three applications, three different engineering problems. Explore the live produ
 [Read the implementation and verification approach →](https://github.com/aadi90392/gitscope#verification)
 
 </details>
-
-<br/>
-
-<a href="https://github.com/aadi90392/stockflow"><img src="assets/stockflow.svg" width="100%" alt="StockFlow — inventory operations covering purchasing, receiving, transfers, sales, returns and stock history." /></a>
-
-**[Launch StockFlow ↗](https://stockflow.aditya-upadhyay1-dev.workers.dev/)** &nbsp; / &nbsp; [Source code](https://github.com/aadi90392/stockflow) &nbsp; / &nbsp; [Project overview](https://portfolio.aditya-upadhyay1-dev.workers.dev/#stockflow)
-
-<details>
-<summary><b>Inside StockFlow — connect operations to inventory</b></summary>
-
-- **One workspace:** products, suppliers, locations and team access.
-- **Connected operations:** purchases, receiving, transfers, sales and returns.
-- **Traceable changes:** a stock ledger helps explain inventory movements.
-- **Deployment:** a React interface and Hono API on Cloudflare, backed by D1.
-- **Deliberate boundary:** inventory operations, not shipment tracking or a complete accounting suite.
-
-</details>
-
-<br/>
-
-<a href="https://github.com/aadi90392/slotforge"><img src="assets/slotforge.svg" width="100%" alt="SlotForge — shared-space booking with membership permissions, availability checks, reservations and audit history." /></a>
-
-**[Launch SlotForge ↗](https://slotforge.aditya-upadhyay1-dev.workers.dev/)** &nbsp; / &nbsp; [Source code](https://github.com/aadi90392/slotforge) &nbsp; / &nbsp; [Project overview](https://portfolio.aditya-upadhyay1-dev.workers.dev/#slotforge)
-
-<details>
-<summary><b>Inside SlotForge — protect a booking beyond the button</b></summary>
-
-- **Membership-based access:** workspace roles and booking ownership are checked on the backend.
-- **Competing reservations:** database constraints protect the booking rules.
-- **Safe retries:** idempotency handling keeps repeated requests from becoming duplicate operations.
-- **Account lifecycle:** email verification, recovery and revocable sessions.
-- **Deliberate boundary:** physical room reservations, not a video meeting service.
-
-</details>
-
 ---
 
-### From the team room
+## Where I have contributed
 
 | Team | Role | Focus |
 | :--- | :--- | :--- |
@@ -83,18 +92,55 @@ Three applications, three different engineering problems. Explore the live produ
 
 [Explore responsibilities and outcomes on my portfolio →](https://portfolio.aditya-upadhyay1-dev.workers.dev/#experience)
 
-### Tools, with a purpose
+## My development toolkit
 
-| Interface | Application | Data & delivery |
+| Build the interface | Connect the system | Keep the data dependable |
 | :--- | :--- | :--- |
-| React · Next.js · TypeScript | Node.js · NestJS · Express · Hono | MongoDB · SQL · Cloudflare D1 |
-| HTML · CSS · Tailwind · Monaco | REST APIs · JWT · RBAC | Git · GitHub Actions · Cloudflare |
-| Zustand · D3 | Web Workers · IndexedDB | Vitest · Playwright · Postman |
+| **React · Next.js · TypeScript** | **Node.js · NestJS · Express** | **PostgreSQL · MongoDB · MySQL** |
+| Tailwind CSS · HTML · CSS | REST APIs · JWT · RBAC · Hono | Redis · Cloudflare D1 · IndexedDB |
+| Zustand · D3 · Monaco Editor | Web Workers · isomorphic-git | Git · GitHub Actions · Cloudflare |
+
+<details>
+<summary><b>🧰 Explore how I use these tools</b></summary>
+
+**Frontend development** — Component-driven interfaces, forms, responsive layouts and explicit loading, empty and failure states. D3 and Monaco support the graph and code-editing experience in GitScope.
+
+**Backend development** — API design, input validation, authentication and authorization. Important rules belong on the server and at the data layer, not just in a disabled button.
+
+**Data and persistence** — Relational models for operational workflows, MongoDB for document-oriented applications, and IndexedDB for browser-local repositories.
+
+**Testing and delivery** — Vitest for behavior checks, Playwright for browser flows, Postman for API inspection, and GitHub Actions for repeatable checks and deployments.
+
+</details>
+
+## Milestones along the way
+
+- **Pod Ceres Lead at Vosyn:** worked in a team codebase spanning 20+ developers, contributing delivery, reviews and quality improvements.
+- **Associate Lead Developer at Infotact:** led an eight-person development team; received the **Star Performer** recognition during my internship.
+- **Client delivery at Kodrish:** worked on five or more MERN applications, from APIs to deployment.
+- **B.Tech in Computer Science, IPS Academy, Indore · 2026.**
+
+<details>
+<summary><b>📓 A few engineering notes from my projects</b></summary>
+
+### A successful click is only the beginning
+In SlotForge, membership checks and database constraints protect reservations. The interface explains the result; the backend enforces the rules.
+
+### Every stock change needs an explanation
+StockFlow connects purchases, receiving, transfers, sales and returns to inventory history. A quantity is more useful when you can trace how it changed.
+
+### Local-first still means persistent
+GitScope executes Git operations in a Web Worker and flushes its browser filesystem before acknowledging completion. Refreshing the page should preserve completed work.
+
+[Explore more implementation details on my portfolio →](https://portfolio.aditya-upadhyay1-dev.workers.dev/)
+
+</details>
 
 ### What I care about
 
-**01 / Clarity** — Make the next action understandable, including loading, empty and error states.  
-**02 / Correctness** — Validate inputs and enforce important rules where the data changes.  
+
+**01 / Clarity** — Make the next action understandable, including loading, empty and error states.<br/>
+**02 / Correctness** — Validate inputs and enforce important rules where the data changes.<br/>
 **03 / Evidence** — Show the implementation, test meaningful behavior and document the boundaries.
 
 <br/>
