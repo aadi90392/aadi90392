@@ -1,4 +1,4 @@
-<img src="assets/hero.svg" width="100%" alt="Aditya Upadhyay — full-stack engineer. Interfaces, APIs and the systems that connect them. Based in Indore, India." />
+<img src="assets/hero.svg" width="100%" alt="Aditya Upadhyay — full-stack developer. Thoughtful interfaces. Reliable systems. Animated application architecture." />
 
 <p align="center">
 <a href="https://portfolio.aditya-upadhyay1-dev.workers.dev/"><img src="assets/portfolio.svg" width="23%" alt="Explore portfolio" /></a>
@@ -7,13 +7,12 @@
 <a href="https://portfolio.aditya-upadhyay1-dev.workers.dev/resume.pdf"><img src="assets/resume.svg" width="23%" alt="View résumé" /></a>
 </p>
 
-<p align="center"><a href="#three-projects-three-different-problems">PROJECTS</a> &nbsp; / &nbsp; <a href="#tech-arsenal">TECH STACK</a> &nbsp; / &nbsp; <a href="#where-i-have-contributed">EXPERIENCE</a> &nbsp; / &nbsp; <a href="#milestones-along-the-way">MILESTONES</a></p>
+<p align="center"><a href="#featured-projects">PROJECTS</a> &nbsp; / &nbsp; <a href="#tech-arsenal">TECH STACK</a> &nbsp; / &nbsp; <a href="#where-i-have-contributed">EXPERIENCE</a> &nbsp; / &nbsp; <a href="#milestones-along-the-way">MILESTONES</a></p>
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-## Namaste, I'm Aditya 👋
+## About me
 
-<img align="right" src="assets/orbit.svg" width="230" alt="An illustrated planet: stay curious, keep building." />
 
 I build web applications that connect **a clear interface to a dependable backend**. I enjoy the whole journey: understanding a problem, designing the data, writing the API and making the final interaction feel right.
 
@@ -21,7 +20,7 @@ From **product teams and client applications to developer tools**, I like workin
 
 **Based in Indore, India. Building with React, TypeScript and Node.js.**
 
-### On my desk right now
+### Current focus
 
 - 🧱 **At work:** full-stack product development at BlueBricks Technologies.
 - 🛠️ **In my projects:** reservations, inventory workflows and browser-local Git tools.
@@ -32,7 +31,7 @@ From **product teams and client applications to developer tools**, I like workin
 
 ---
 
-## Three projects. Three different problems.
+## Featured Projects
 
 
 **Built, deployed and ready to explore.** Each preview below comes from the actual live application. Click a screenshot to inspect its source, or launch the app using the links below it.
