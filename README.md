@@ -7,13 +7,17 @@
 <a href="https://portfolio.aditya-upadhyay1-dev.workers.dev/resume.pdf"><img src="assets/resume.svg" width="23%" alt="View résumé" /></a>
 </p>
 
+<p align="center"><a href="#three-projects-three-different-problems">PROJECTS</a> &nbsp; / &nbsp; <a href="#tech-arsenal">TECH STACK</a> &nbsp; / &nbsp; <a href="#where-i-have-contributed">EXPERIENCE</a> &nbsp; / &nbsp; <a href="#milestones-along-the-way">MILESTONES</a></p>
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
 ## Namaste, I'm Aditya 👋
 
 <img align="right" src="assets/orbit.svg" width="230" alt="An illustrated planet: stay curious, keep building." />
 
 I build web applications that connect **a clear interface to a dependable backend**. I enjoy the whole journey: understanding a problem, designing the data, writing the API and making the final interaction feel right.
 
-My work spans **product teams, client applications and developer tools**. The interesting part for me is what happens after the happy path: two people booking the same room, a returned item changing inventory, or a Git operation surviving a browser refresh.
+From **product teams and client applications to developer tools**, I like working on the details that make software useful: handling competing bookings, tracing inventory changes and keeping local work safe after a refresh.
 
 **Based in Indore, India. Building with React, TypeScript and Node.js.**
 
@@ -31,9 +35,15 @@ My work spans **product teams, client applications and developer tools**. The in
 ## Three projects. Three different problems.
 
 
-Three applications, three different engineering problems. Explore the live products, then follow the implementation in their repositories.
+**Built, deployed and ready to explore.** Each preview below comes from the actual live application. Click a screenshot to inspect its source, or launch the app using the links below it.
 
-<a href="https://github.com/aadi90392/slotforge"><img src="assets/slotforge.svg" width="100%" alt="SlotForge — shared-space booking with membership permissions, availability checks, reservations and audit history." /></a>
+### 01 / SlotForge
+
+Shared rooms. Clear permissions. Bookings that stay consistent.
+
+<a href="https://github.com/aadi90392/slotforge"><img src="assets/slotforge-live.png" width="100%" alt="slotforge actual live application screenshot" /></a>
+
+<sub>React · TypeScript · Cloudflare Workers · D1</sub>
 
 **[Launch SlotForge ↗](https://slotforge.aditya-upadhyay1-dev.workers.dev/)** &nbsp; / &nbsp; [Source code](https://github.com/aadi90392/slotforge) &nbsp; / &nbsp; [Project overview](https://portfolio.aditya-upadhyay1-dev.workers.dev/#slotforge)
 
@@ -48,7 +58,13 @@ Three applications, three different engineering problems. Explore the live produ
 
 </details>
 <br/>
-<a href="https://github.com/aadi90392/stockflow"><img src="assets/stockflow.svg" width="100%" alt="StockFlow — inventory operations covering purchasing, receiving, transfers, sales, returns and stock history." /></a>
+### 02 / StockFlow
+
+Know what is in stock, where it belongs and how it got there.
+
+<a href="https://github.com/aadi90392/stockflow"><img src="assets/stockflow-live.png" width="100%" alt="stockflow actual live application screenshot" /></a>
+
+<sub>React · TypeScript · Hono · Cloudflare D1</sub>
 
 **[Launch StockFlow ↗](https://stockflow.aditya-upadhyay1-dev.workers.dev/)** &nbsp; / &nbsp; [Source code](https://github.com/aadi90392/stockflow) &nbsp; / &nbsp; [Project overview](https://portfolio.aditya-upadhyay1-dev.workers.dev/#stockflow)
 
@@ -63,7 +79,13 @@ Three applications, three different engineering problems. Explore the live produ
 
 </details>
 <br/>
-<a href="https://github.com/aadi90392/gitscope"><img src="assets/gitscope.svg" width="100%" alt="GitScope — browser-local Git debugger with real objects, commit graphs, conflict resolution and offline storage." /></a>
+### 03 / GitScope
+
+See your Git history. Resolve conflicts. Explore safely in your browser.
+
+<a href="https://github.com/aadi90392/gitscope"><img src="assets/gitscope-live.png" width="100%" alt="gitscope actual live application screenshot" /></a>
+
+<sub>React · TypeScript · Web Workers · isomorphic-git · IndexedDB</sub>
 
 **[Launch GitScope ↗](https://aadi90392.github.io/gitscope/)** &nbsp; / &nbsp; [Source code](https://github.com/aadi90392/gitscope) &nbsp; / &nbsp; [Architecture & boundaries](https://github.com/aadi90392/gitscope#architecture)
 
@@ -79,6 +101,7 @@ Three applications, three different engineering problems. Explore the live produ
 [Read the implementation and verification approach →](https://github.com/aadi90392/gitscope#verification)
 
 </details>
+
 ---
 
 ## Where I have contributed
@@ -92,13 +115,33 @@ Three applications, three different engineering problems. Explore the live produ
 
 [Explore responsibilities and outcomes on my portfolio →](https://portfolio.aditya-upadhyay1-dev.workers.dev/#experience)
 
-## My development toolkit
+## Tech arsenal
+
+### Interfaces & interaction
+
+<img src="assets/stack-frontend.svg" height="52" alt="React, Next.js, TypeScript, JavaScript, HTML, CSS and Tailwind CSS" />
+
+### APIs & data
+
+<img src="assets/stack-backend.svg" height="52" alt="Node.js, NestJS, Express, FastAPI, PostgreSQL, MongoDB and Redis" />
+
+### Build, verify & ship
+
+<img src="assets/stack-delivery.svg" height="52" alt="Git, GitHub, GitHub Actions, Cloudflare, Vite, Vitest and Postman" />
+
+<br/>
+
+<details>
+<summary><b>View the complete toolkit</b></summary>
+
 
 | Build the interface | Connect the system | Keep the data dependable |
 | :--- | :--- | :--- |
 | **React · Next.js · TypeScript** | **Node.js · NestJS · Express** | **PostgreSQL · MongoDB · MySQL** |
 | Tailwind CSS · HTML · CSS | REST APIs · JWT · RBAC · Hono | Redis · Cloudflare D1 · IndexedDB |
 | Zustand · D3 · Monaco Editor | Web Workers · isomorphic-git | Git · GitHub Actions · Cloudflare |
+
+</details>
 
 <details>
 <summary><b>🧰 Explore how I use these tools</b></summary>
