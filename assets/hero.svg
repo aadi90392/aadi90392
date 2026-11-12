@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 520" width="1280" height="520" role="img" aria-label="Aditya Upadhyay, full-stack engineer building interfaces, APIs and the systems that connect them. Indore, India." xmlns:c2pa="http://c2pa.org/manifest">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 520" width="1280" height="520" role="img" aria-label="Aditya Upadhyay, full-stack engineer building interfaces, APIs Protecting the data behind every interaction. Indore, India." xmlns:c2pa="http://c2pa.org/manifest">
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05060c"/><stop offset=".6" stop-color="#090b18"/><stop offset="1" stop-color="#07081a"/></linearGradient>
 <linearGradient id="gmg" x1="0" y1="0" x2="0" y2="1"><stop offset=".45" stop-color="#000"/><stop offset="1" stop-color="#fff"/></linearGradient>
@@ -62,26 +62,10 @@ text{font-family:Inter,"SF Pro Display","Segoe UI Variable Display","Segoe UI",s
 <g class="in" style="animation-delay:.3s"><text x="76" y="190" font-size="92" font-weight="800" fill="url(#name)" letter-spacing="-3.5">Aditya</text></g>
 <g class="in" style="animation-delay:.45s"><text x="76" y="276" font-size="92" font-weight="800" fill="url(#name)" letter-spacing="-3.5">Upadhyay</text></g>
 <g class="in" style="animation-delay:.7s">
-<text x="80" y="326" font-size="21" fill="#a3adc2">Full-stack engineer building interfaces, APIs</text>
-<text x="80" y="354" font-size="21" fill="#a3adc2">and the systems that connect them.</text>
+<text x="80" y="326" font-size="21" fill="#a3adc2">Designing clear interfaces. Engineering APIs.</text>
+<text x="80" y="354" font-size="21" fill="#a3adc2">Protecting the data behind every interaction.</text>
 </g>
-<g class="in" style="animation-delay:1.0s">
-<rect x="80" y="396" width="170" height="78" rx="16" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".10"/>
-<rect x="98" y="396.5" width="60" height="1.5" rx=".75" fill="url(#hl)"/>
-<text x="100" y="437" font-size="30" font-weight="800" fill="#f4f6ff" letter-spacing="-1">3</text>
-<text x="100" y="459" font-size="12" fill="#8b93a7">live projects shipped</text>
-</g><g class="in" style="animation-delay:1.12s">
-<rect x="266" y="396" width="170" height="78" rx="16" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".10"/>
-<rect x="284" y="396.5" width="60" height="1.5" rx=".75" fill="url(#hl)"/>
-<text x="286" y="437" font-size="30" font-weight="800" fill="#f4f6ff" letter-spacing="-1">20+</text>
-<text x="286" y="459" font-size="12" fill="#8b93a7">devs in team codebase</text>
-</g><g class="in" style="animation-delay:1.24s">
-<rect x="452" y="396" width="170" height="78" rx="16" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".10"/>
-<rect x="470" y="396.5" width="60" height="1.5" rx=".75" fill="url(#hl)"/>
-<text x="472" y="437" font-size="30" font-weight="800" fill="#f4f6ff" letter-spacing="-1">5+</text>
-<text x="472" y="459" font-size="12" fill="#8b93a7">client apps delivered</text>
-</g>
-
+<g class="in" style="animation-delay:1.0s"><rect x="80" y="396" width="174" height="78" rx="12" fill="#0c1221" stroke="#22d3ee" stroke-opacity=".3"/><path d="M96 413h22" stroke="#22d3ee" stroke-width="2"/><text x="96" y="438" font-size="15" font-weight="700" fill="#f4f6ff" letter-spacing=".5">API DESIGN</text><text x="96" y="459" font-size="10.5" fill="#a8b3c6">Auth / roles / safe retries</text></g><g class="in" style="animation-delay:1.12s"><rect x="266" y="396" width="174" height="78" rx="12" fill="#0c1221" stroke="#818cf8" stroke-opacity=".3"/><path d="M282 413h22" stroke="#818cf8" stroke-width="2"/><text x="282" y="438" font-size="15" font-weight="700" fill="#f4f6ff" letter-spacing=".5">DATA INTEGRITY</text><text x="282" y="459" font-size="10.5" fill="#a8b3c6">Constraints / audit history</text></g><g class="in" style="animation-delay:1.24s"><rect x="452" y="396" width="174" height="78" rx="12" fill="#0c1221" stroke="#c084fc" stroke-opacity=".3"/><path d="M468 413h22" stroke="#c084fc" stroke-width="2"/><text x="468" y="438" font-size="15" font-weight="700" fill="#f4f6ff" letter-spacing=".5">LOCAL-FIRST</text><text x="468" y="459" font-size="10.5" fill="#a8b3c6">Git objects / Web Workers</text></g>
 <!-- system stack -->
 <g class="float">
 <ellipse cx="880" cy="448" rx="190" ry="34" fill="url(#shadow)"/>

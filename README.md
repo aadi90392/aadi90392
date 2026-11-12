@@ -31,6 +31,18 @@ From **product teams and client applications to developer tools**, I like workin
 
 ---
 
+## Engineering in practice
+
+<img src="assets/engineering.svg" width="100%" alt="Engineering capabilities demonstrated in SlotForge, StockFlow and GitScope" />
+
+| Engineering concern | Implementation to explore |
+| :--- | :--- |
+| **Authorization & safe retries** | [SlotForge](https://github.com/aadi90392/slotforge): workspace membership, booking ownership and idempotency |
+| **Consistency under competing requests** | [SlotForge](https://github.com/aadi90392/slotforge): reservation rules protected by database constraints |
+| **Operational traceability** | [StockFlow](https://github.com/aadi90392/stockflow): receiving, transfers, sales and returns connected to inventory history |
+| **Work off the main thread** | [GitScope](https://github.com/aadi90392/gitscope): Git operations executed through a Web Worker |
+| **Local persistence & recovery** | [GitScope](https://github.com/aadi90392/gitscope): IndexedDB filesystem, flush-before-acknowledgment and portable backups |
+
 ## Featured Projects
 
 
